@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表HASH", "链表HASH\链表HASH.vcproj", "{BDB50A25-F0E5-4BCD-AAEF-A91737D0BF25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB50A25-F0E5-4BCD-AAEF-A91737D0BF25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDB50A25-F0E5-4BCD-AAEF-A91737D0BF25}.Debug|Win32.Build.0 = Debug|Win32
+		{BDB50A25-F0E5-4BCD-AAEF-A91737D0BF25}.Release|Win32.ActiveCfg = Release|Win32
+		{BDB50A25-F0E5-4BCD-AAEF-A91737D0BF25}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
