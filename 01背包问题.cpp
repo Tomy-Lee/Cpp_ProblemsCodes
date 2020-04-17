@@ -14,6 +14,7 @@ int main(){
     		if(j>=w[i])  dp[i][j]=max(dp[i-1][j],dp[i-1][j-w[i]]+val[i]);//放还是不放的选择
     		else dp[i][j]=dp[i-1][j];
      }
-     cout<<"背包可装的最大价值是："<<dp[m][T]<<endl;
-     return 0;
+    cout << "背包可装的最大价值是：" << dp[m][T] << endl;
+    system("pause");
+    return 0;
 } 

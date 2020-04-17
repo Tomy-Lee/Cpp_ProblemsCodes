@@ -1,5 +1,6 @@
 #include <iostream>
 #include <list>
+#include<stdlib.h>
 using namespace std;
 class HashTable
 {
@@ -32,7 +33,9 @@ void HashTable::print() const
 {
 	for( int i = 0; i < 13; i++ )
 	{
-		list<int>::iterator iter = hashlist[i].begin();
+		if(hashlist[i].empty()) cout<<i<<"#NULL"<<endl;
+		else{
+			list<int>::iterator iter = hashlist[i].begin();
 		cout << i << "#" << *iter;
 		iter++;
 		while( iter != hashlist[i].end() )
@@ -41,6 +44,8 @@ void HashTable::print() const
 			iter++;
 		}
 		cout << endl;
+		}
+		
 	}
 }
 
